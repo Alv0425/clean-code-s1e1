@@ -13,16 +13,16 @@
     <main class="todo-app">
       <article class="todo-app__body">
         <h1 class="visually-hidden">TODO app</h1>
-        <section class="todo-app__section" id="topSectionForAddingElementToList">
+        <section class="todo-app__section" id="add-task-form">
           <h2 class="todo-app__title">Add Item</h2>
           <div class="task task_suggested">
-            <input class="task__field" id="new-task" type="text">
+            <input class="task__field" id="add-task" type="text">
             <button class="task__button">Add</button>
           </div>
         </section>
         <section class="todo-app__section">
           <h2 class="todo-app__title">Todo</h2>
-          <ul class="todo-app__tasks-list" id="incompleteTasks">
+          <ul class="todo-app__tasks-list" id="to-do-list">
             <li class="task">
               <input class="task__checkbox" type="checkbox">
               <label class="task__label">Pay Bills</label>
@@ -45,7 +45,7 @@
         </section>
         <section>
           <h2 class="todo-app__title">Completed</h2>
-          <ul class="todo-app__tasks-list" id="completed-tasks">
+          <ul class="todo-app__tasks-list" id="done-list">
             <li class="task task_completed">
               <input class="task__checkbox" type="checkbox" checked>
               <label class="task__label">See the Doctor</label>
