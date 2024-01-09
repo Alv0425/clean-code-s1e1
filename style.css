@@ -149,3 +149,10 @@
 .task_editing .task__label {
   display: none;
 }
+
+.visually-hidden {
+  position: fixed;
+  top: -100%;
+  left: -100%;
+  transform: scale(0);
+}
