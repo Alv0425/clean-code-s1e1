@@ -25,7 +25,7 @@
 .todo-app {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 .task__field,
 .task__label {
@@ -41,7 +41,7 @@
 }
 .todo-app__tasks-list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 .task {
   list-style: none;
@@ -54,7 +54,7 @@
 .task__button,
 .remove-button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
